@@ -3,10 +3,10 @@
 //MAAF BASE NYA JELEK
 
 //FOLLOW ALL SOSIAL MEDIAML ME
-//YOUTUBE : Zero YT7
-//INSTAGRAM : @Zero_YT7
-//TIKTOK : @_zeroyt7
-//GITHUB : Zero-YT7
+//YOUTUBE : Faisal Gaming
+//INSTAGRAM : @BlmAda
+//TIKTOK : @_paicongtzy
+//GITHUB : DindaFaisal
 
 let { fetchJosn, kyun, fetchText } = require('./lib/fetcher')
 let { color, bgcolor } = require('./lib/color')
@@ -108,7 +108,7 @@ module.exports = zeroyt7 = async (zeroyt7, mek, _welkom) => {
 
 		mess = {
 			wait: 'Sabar Lagi Proses Tod...!',
-			success: 'Done Jangan Lupa Subscribe Zero YT7',
+			success: 'Done Jangan Lupa Subscribe FAISAL GAMING',
 			error: {
 				stick: 'Gagal Convert Gambar To Sticker...Coba Lagi !',
 				Iv: 'Linknya Error Tod !'
@@ -427,7 +427,7 @@ Saya ${botname} Yg Siap Membantu Anda Dalam Kinerja Whatsapp Agar Mempermudah Se
 │ あ ${prefix}report
 └⬣`
 teks =
-`Ini Base Buatan Zero YT7 Silahkan Di Pake Jika Ingin Recode Atau Reupload Tolong Creator Jangan Hpus Tolong Hargai Karya Orang 🙏`
+`Ini Base Buatan FAISAL GAMING Silahkan Di Pake Jika Ingin Recode Atau Reupload Tolong Creator Jangan Hpus Tolong Hargai Karya Orang 🙏`
 but = [
           { buttonId: `${prefix}infobot`, buttonText: { displayText: '☰ INFO' }, type: 1 },
           { buttonId: `${prefix}owner`, buttonText: { displayText: '☰ OWNER' }, type: 1 }
@@ -439,7 +439,7 @@ timestamp = speed();
 				latensi = speed() - timestamp
                   	teks =
 `┏━➤ *INFO BOT* 
-*┃┃* Creator Bot : Zero YT7
+*┃┃* Creator Bot : FAISAL GANZ
 *┃┃* Nama Owner : ${ownername}
 *┃┃* Nama Bot : ${botname}
 *┃┃* Prefix : Multi Prefix
@@ -450,7 +450,7 @@ timestamp = speed();
 *┃┗━━━━━━━━*
 *┃◗ Thanks To Allah S.W.T*
 *┃◗ Thank To Ortu*
-*┃◗ Thank To Zero YT7 (Creator)*
+*┃◗ Thank To Faisal (Creator)*
 *┃◗ Thanks To All Subscriberku*
 *┗━━━━━━━ •*`
                   but = [
@@ -888,17 +888,17 @@ reply('Masalah Telah Di Laporkan Ke Owner BOT, Mohon Tunggu Untuk Proses Perbaik
 break
 case 'youtube':
 teks =
-`Nih Youtube Owner Ku Jangan Lupa Di Subscribe Ya https://youtube.com/ZeroYT7`
+`Nih Youtube Owner Ku Jangan Lupa Di Subscribe Ya https://youtube.com/channel/UC_vf3Ole7QT7ky_r2Zji6mw`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
 case 'instagram':
 teks =
-`Nih Instagram Owner Ku Jangan Lupa Di Follow Ya https://instagram.com/Zero_YT7`
+`Nih Instagram Owner Ku Jangan Lupa Di Follow Ya BELOM ADA `
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
 case 'tiktok':
 teks =
-`Nih Tiktok Owner Ku Jangan Lupa Di Follow Ya https://tiktok.com/@_zeroyt7`
+`Nih Tiktok Owner Ku Jangan Lupa Di Follow Ya https://tiktok.com/@_Paicongtzy`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
 case 'sourcecode':
@@ -907,11 +907,11 @@ case 'sc':
 teks = 
 `*Bot Ini Menggunakan Sourcecode*
 ╭─────────────────────
-├ Sc Ori = https://github.com/Zero-YT7/Base-ZeroYT7
-├ Sc Full Fitur = https://youtube.com/ZeroYT7
+├ Sc Ori = https://github.com/DindaFaisal/Base-ZeroYT7
+├ Sc Full Fitur = https://youtube.com/channel/UC_vf3Ole7QT7ky_r2Zji6mw
 ├─────────────────────
-├ Creator Base = Zero YT7
-├ Creator Sc = Zero YT7
+├ Creator Base = Faisal
+├ Creator Sc = Faisal
 └─────────────────────`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
